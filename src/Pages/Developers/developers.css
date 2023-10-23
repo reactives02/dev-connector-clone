@@ -1,0 +1,15 @@
+
+
+.dev-data{
+    display: grid;
+    grid-template-columns: 2fr 4fr 2fr;
+    align-items: center;
+    grid-gap: 2rem;
+    box-shadow: -5px 8px 15px -9px rgba(250, 147, 2, 0.897);
+    /* border: 2px solid var(--color); */
+}
+
+
+
+
+

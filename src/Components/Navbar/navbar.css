@@ -1,0 +1,23 @@
+
+ :root{
+    --texTColor: #ffffffbb ;
+    --hoverColor : #ff9f1c;   
+
+}
+.heading{
+    color: var(--textColor);
+    border-bottom: 2px solid var(--hoverColor);
+}
+nav ul li a{
+    display: block;
+    font-size: 1.2rem;
+    margin-left: 1.5em;
+    color: var(--texTColor);
+}
+nav ul li a:hover,.container .Brand:hover{
+    color: var(--hoverColor);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    /* border-bottom: 2px solid saddlebrown;
+    border-radius: 5px;     */
+} 

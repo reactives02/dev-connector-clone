@@ -1,0 +1,26 @@
+:root{
+    --color: #ff9f1c;
+}
+
+.sign-in-group h1{
+    color: var(--color);
+}
+.sign-in-group input{
+    padding: 0.4rem;
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    width: 100%;
+}
+.sign-in-group input:focus{
+    outline-color: var(--color);
+
+}
+.sign-in-group .btn{
+    width: max-content;
+    color: #fff;
+    border-radius: 5px;
+    background-color: var(--color);
+}
+

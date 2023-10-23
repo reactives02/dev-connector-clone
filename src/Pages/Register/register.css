@@ -1,0 +1,41 @@
+:root{
+    --color: #ff9f1c;
+}
+
+    
+        .sign-up-group h1{
+       
+        color: var(--color);
+    }
+    
+
+   
+    .sign-up-group input{
+        padding: 0.4rem;
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+        border: 1px solid #333;
+        border-radius: 5px;
+        display: block;
+        width: 100%;
+    }
+    .sign-up-group input:focus{
+       
+        outline-color: var(--color);
+    }
+    
+    .sign-up-group .btn{
+        color: #fff;
+        width: max-content;
+        background-color: var(--color);
+        border-radius: 5px;
+    }
+    .sign-up-group .btn:hover{
+        background-color: #e28b11;
+    }
+    .sign-up-group .slog-2{
+        margin: 0.1rem 0;   
+        font-size: 1rem;
+        color: #333;
+    }
+    
